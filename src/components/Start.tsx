@@ -17,7 +17,7 @@ export default function Start() {
           {STEPS.map(([n, t, d]) => (
             <div className="reveal" key={n}>
               <b>{n}</b>
-              <h4>{t}</h4>
+              <h3>{t}</h3>
               <p>{d}</p>
             </div>
           ))}
